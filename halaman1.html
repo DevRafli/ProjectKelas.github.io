@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jadwal Piket XII RPL 2</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container">
+        <a class="navbar-brand" href="#"> XII RPL 2</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon text-white"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Fitur</a>
+              <div class="dropdown-menu">
+                <a href="#" class="dropdown-item">Bayar Uang Kas</a>
+                <a href="https://kredit-poin-siswa-smkinfokom.my.id/" class="dropdown-item">Cek Poin Ku</a>
+                <a href="#" class="dropdown-item">Soon Coming...</a>
+              </div>
+            </li>
+          </ul>
+          <!-- Button with d-md-block class to make it visible on medium and larger screens -->
+          <a href="https://wa.me/6289522807034" class="kontak">
+            <button type="button" class="btn tombol-add d-md-block">Countact Me</button>
+          </a>
+        </div>
+      </div>
+    </nav>
+    <div class="container mt-5">
+      <div class="overlay" id="alertOverlay">
+        <div class="alert-box bg-white p-4 rounded shadow">
+          <img src="https://i.postimg.cc/K8F8Q4yt/Alert-smile.png" alt="Alert Image" class="alert-image mb-4">
+          <h2>Hello There</h2>
+          <p>Need web design and graphic design services, Click the "countact me" button on the navbar. Thank You</p>
+          <button class="btn btn-primary" onclick="hideAlert()">Close</button>
+        </div>
+      </div>
+    </div>    
+  </div>
+</div>
+<section class="container tabel">
+  <input type="search" class="form-control table-filter" placeholder="Search your name..." />
+  <div class="table-responsive text-center">
+      <table role="table" class="table filtered-table">
+          <thead role="rowgroup">
+              <tr role="row">
+                  <th role="columnheader">No</th>
+                  <th role="columnheader">SENIN</th>
+                  <th role="columnheader">SELASA</th>
+                  <th role="columnheader">RABU</th>
+                  <th role="columnheader">KAMIS</th>
+                  <th role="columnheader">JUM'AT</th>
+              </tr>
+          </thead>
+          <tbody role="rowgroup">
+              <tr role="row">
+                  <td role="cell" id="angka-tabel">1</td>
+                  <td role="cell">M. Damar</td>
+                  <td role="cell">M. Fatih</td>
+                  <td role="cell">M. Dafa</td>
+                  <td role="cell">M. Fauzan</td>
+                  <td role="cell">M. Rafikah</td>
+              </tr>
+              <tr role="row">
+                <td role="cell" id="angka-tabel">2</td>
+                <td role="cell">M.  Riil Fadli</td>
+                <td role="cell">M. Rizki Ramadan</td>
+                <td role="cell">Afin</td>
+                <td role="cell">Nasrevan</td>
+                <td role="cell">M. Ridho</td>
+              </tr>
+              <tr role="row">
+                <td role="cell" id="angka-tabel">3</td>
+                <td role="cell">M. Rizki Sya Bhan</td>
+                <td role="cell">Nadya</td>
+                <td role="cell">Naisya</td>
+                <td role="cell">Nayla</td>
+                <td role="cell">Nazwa</td>
+              </tr>
+              <tr role="row">
+                <td role="cell" id="angka-tabel">4</td>
+                <td role="cell">Noval</td>
+                <td role="cell">Novia</td>
+                <td role="cell">Nur Suci</td>
+                <td role="cell">Raden Dwi</td>
+                <td role="cell">Raffa Yuda</td>
+              </tr>
+              <tr role="row">
+                <td role="cell" id="angka-tabel">5</td>
+                <td role="cell">Raffi Arly</td>
+                <td role="cell">Rafli Raihan</td>
+                <td role="cell">Rehan</td>
+                <td role="cell">Siti Nur</td>
+                <td role="cell">Yazkia</td>
+              </tr>
+              <tr role="row">
+                <td role="cell" id="angka-tabel">6</td>
+                <td role="cell">Sopyan</td>
+                <td role="cell">Syifa Nurrahma</td>
+                <td role="cell">Zaskia</td>
+                <td role="cell">Wulan</td>
+                <td role="cell">Nadzif</td>
+              </tr>
+              <tr role="row">
+                <td role="cell" id="angka-tabel">7</td>
+                <td role="cell">M. Rafi</td>
+                <td role="cell">Salwa</td>
+                <td role="cell">M. Rizqy Nur</td>
+                <td role="cell"></td>
+                <td role="cell"></td>
+            </tr>
+          </tbody>
+      </table>
+  </div>
+  <div class="not-found d-none text-center mt-3">
+      <img src="https://i.postimg.cc/qMgY5tZG/Null-Pencaharian-Nama.png" alt="Not Found" width="200">
+      <p class="mt-2">Hmmm. Nama yang kamu cari tidak ada.</p>
+  </div>
+</section>
+
+<div class="container hukuman mt-3">
+  <div class="text-start">
+    <p>Hukuman : Bayar Rp 50.000 setiap ga piket (opsional)</p>
+    <p id="teks-ke-2">©Copyright 2023. Build by master rafli raihan with "ide & love"</p>
+  </div>
+</div>
+
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+      <script src="script.js"></script>
+</body>
+</html>
